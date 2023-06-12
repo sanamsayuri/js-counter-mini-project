@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+  background-color: orange;
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Righteous', cursive;
+  font-family: 'Yuji Hentaigana Akebono', cursive;
+    
+}
+.container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+
+    height:300px;
+    width:400px;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    
+   /* From https://css.glass */
+background: rgba(237, 228, 228, 0.71);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4px);
+-webkit-backdrop-filter: blur(4px);
+border: 1px solid rgba(237, 228, 228, 0.13);
+
+}
+.top{
+    height: 100px;
+    background-color: aliceblue;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+   
+}
+h3{
+    margin-top:20px;
+    font-size: 50px;
+   
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+}
+.bt{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+   height:100px;
+   width: 100px;
+   background-color: beige;
+}
+.fa-solid{
+    margin-top: 70%;
+    scale: 3;
+}
+.fa-solid:hover{
+    scale:3.5;
+    
+    
+
+}
+.h2{
+    margin-left:40%;
+    margin: top 50px;
+    font-weight: bold;
+}
